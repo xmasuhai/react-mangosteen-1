@@ -14,6 +14,8 @@ export default defineConfig({
     host: true
   },
   resolve: {
+    // 开启 Vite 8 的原生 tsconfig 路径解析支持
+    tsconfigPaths: true,
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     }
