@@ -1,6 +1,6 @@
 import './App.scss'
 
-function App() {
+export function App() {
   return (
     <section id="center">
       Hi
