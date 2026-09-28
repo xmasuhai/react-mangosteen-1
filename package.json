@@ -9,10 +9,11 @@
   },
   "scripts": {
     "dev": "vite --host",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build --base=/react-mangosteen-1-preview/",
     "lint": "oxlint",
     "preview": "vite preview --host",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "deploy": "sh bin/deploy_to_github.sh"
   },
   "dependencies": {
     "react": "19.3.0",
