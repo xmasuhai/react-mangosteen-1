@@ -3,11 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=22.23.2",
+    "pnpm": ">=11.27.0"
+  },
   "scripts": {
     "dev": "vite --host",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview --host"
+    "preview": "vite preview --host",
+    "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
     "react": "19.3.0",
@@ -26,5 +31,6 @@
     "sass-embedded": "1.104.1",
     "typescript": "7.0.2",
     "vite": "8.3.1"
-  }
+  },
+  "packageManager": "pnpm@11.27.0+sha512.ad12821463bb143295f1fa3ecde77a6b9b97a7990386da800ff57bffc3964dc64b7b1c7559d5dbe5c337aea659ed9c8937d4370bd198ca2009bc6fa0249808e7"
 }

@@ -53,6 +53,8 @@ pnpm build
 - `typescript@7.0.2`
 - `react@19.3.0`
 - `react-router`
+- `zustand`
+- `uno-css`
 - `sass`(`sass-embedded@1.104.1`)
 
 ---
