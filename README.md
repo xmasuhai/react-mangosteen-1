@@ -45,6 +45,12 @@ pnpm dev
 pnpm build
 ```
 
+### 项目部署 GitHub Pages
+
+```bash
+pnpm deploy
+```
+
 ---
 
 ### 主要依赖技术栈

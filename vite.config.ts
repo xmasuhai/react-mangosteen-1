@@ -5,6 +5,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // base: '/react-mangosteen-1-preview/',
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })
