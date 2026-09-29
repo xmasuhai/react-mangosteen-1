@@ -1,6 +1,5 @@
 import { fileURLToPath, URL } from 'node:url'
-import react, { reactCompilerPreset } from '@vitejs/plugin-react'
-import babel from '@rolldown/plugin-babel'
+import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
@@ -8,7 +7,6 @@ export default defineConfig({
   // base: '/react-mangosteen-1-preview/',
   plugins: [
     react(),
-    babel({ presets: [reactCompilerPreset()] })
   ],
   server: {
     host: true
@@ -19,5 +17,5 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     }
-  }
+  },
 })

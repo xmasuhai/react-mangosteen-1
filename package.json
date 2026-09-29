@@ -18,8 +18,8 @@
     "deploy": "sh bin/deploy_to_github.sh"
   },
   "dependencies": {
-    "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "9.5.1",
@@ -28,10 +28,9 @@
     "@rolldown/plugin-babel": "0.2.4",
     "@types/babel__core": "7.20.5",
     "@types/node": "24.19.0",
-    "@types/react": "19.3.0",
-    "@types/react-dom": "19.3.0",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
     "@vitejs/plugin-react": "6.1.1",
-    "babel-plugin-react-compiler": "1.0.0",
     "eslint": "10.11.0",
     "eslint-plugin-react-refresh": "0.5.7",
     "oxlint": "1.85.0",

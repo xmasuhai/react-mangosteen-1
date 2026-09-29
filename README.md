@@ -57,9 +57,9 @@ pnpm deploy
 
 - `vite@8.3.1`
 - `typescript@7.0.2`
-- `react@19.3.0`
-- `react-router`
-- `zustand`
+- `react@18.3.1`
+- `react-router@6.30.6`
+- `zustand@5.0.15`
 - `uno-css`
 - `sass`(`sass-embedded@1.104.1`)
 
