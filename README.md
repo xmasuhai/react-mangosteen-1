@@ -8,7 +8,7 @@
 
 ### 1. 检查 Node.js 版本
 请确保你的本地 Node.js 版本符合项目要求：
-* **要求版本**：`>=22.23.2`
+* **要求版本**：`>=26.12.1`
 * **检查命令**：`node -v`
 
 ### 2. 开启官方 Corepack
@@ -16,7 +16,7 @@
 
 ```bash
 corepack enable
-corepack prepare pnpm@11.27.0 --active
+corepack prepare pnpm@12.15.0 --active
 ```
 
 ---
